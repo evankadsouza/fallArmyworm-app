@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Result"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:textSize="50dp"
+        android:textColor="#551313"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:id="@+id/resultHead"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[result will be displayed here]"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/resultHead"
+        android:id="@+id/reslt"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reslt"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textColor="#8F1065"
+        android:textStyle="bold"
+        android:id="@+id/thankyou"
+        android:layout_gravity="center_horizontal"
+        android:text="Thank You"></TextView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/thankyou"
+        android:layout_marginTop="40dp"
+        android:text="BACK"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#550820"
+        ></Button>
+</LinearLayout>
